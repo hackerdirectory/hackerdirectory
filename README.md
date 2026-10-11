@@ -1,44 +1,75 @@
 <p align="center">
-  <img src="header.svg" alt="Hacker Directory — Understand what you hack. Active Directory and Web foundations. Core, Red, Blue. Türkçe / English." width="100%" />
+  <img src="header.svg" alt="Hacker Directory — Understand what you hack. English / Türkçe." width="100%" />
 </p>
 
 <p align="center">
   <a href="https://hacker.directory"><strong>hacker.directory ↗</strong></a>
-  &nbsp; · &nbsp; Active Directory &nbsp; · &nbsp; Web Application
-  &nbsp; · &nbsp; Türkçe / English
+  &nbsp; · &nbsp; English / Türkçe
 </p>
 
-### Mekanizmayı anla. Sınırı gör. Kanıtla açıkla.
+## About
 
-Hacker Directory, security konularını ezberlenecek komutlar yerine **aktörler, veri akışı, state ve karar sınırları** üzerinden anlatan bağımsız bir öğrenme projesidir. Türkçe anlatımda yerleşik technical jargon korunur; içeriklerin English karşılıkları da bulunur.
+Hacker Directory is an independent security learning/reference project. Content is available in English and Turkish.
 
-| Perspektif | Sorduğumuz soru |
+## Current learning series
+
+- **Active Directory**
+- **Web Application**
+
+These series combine Core, Red, and Blue perspectives, topic-specific artifacts, and practical exercises.
+
+| Perspective | Focus |
 | :--- | :--- |
-| **Core** | Nasıl çalışıyor? Hangi aktör hangi veriye ve karara sahip? |
-| **Red** | Hangi varsayım bozulduğunda güvenlik sınırı zayıflıyor? |
-| **Blue** | Neyi gözlemleyebilir, nasıl koruyabilir ve sonucu nasıl doğrulayabiliriz? |
+| **Core** | Protocols and architecture |
+| **Red** | Exploitation mechanics |
+| **Blue** | Defense and detection |
 
-### Çalışma alanları
+## Manual labs
 
-**Active Directory** — identity, authentication, authorization, Kerberos, NTLM, Group Policy ve trust ilişkileri.
+This account hosts standalone local labs and their workbooks. The current packages cover:
 
-**Web Application** — HTTP, URL, browser, cookie/session ve resource authorization temelleri.
+- **Request, session, and resource policy** — HTTP requests and responses, cookies, session state, and authorization decisions. Two workbooks share one local application.
+- **URL Boundary Lab** — URL components, relative resolution, encoding, and origin/site comparisons using native APIs.
+- **Browser Observation Lab** — Document, DOM/CSS, and event-loop behavior observed in the browser.
 
-**Manual labs** — önce tahmin et; yerel uygulamada veya native API'de gözlemle; farkı kendi kanıtınla açıkla. Lablar kendi bilgisayarında çalışan küçük öğretim ortamları olarak hazırlanır.
-
-Bu GitHub hesabı, bağımsız lab paketlerinin ve onları çalıştırmak için gereken workbook'lerin paylaşım alanıdır. İlk lab repoları yayımlandığında burada doğrudan bağlantılarını bulacaksın.
+- [web-request-session-lab](https://github.com/hackerdirectory/web-request-session-lab)
+- [web-url-boundary-lab](https://github.com/hackerdirectory/web-url-boundary-lab)
+- [web-browser-observation-lab](https://github.com/hackerdirectory/web-browser-observation-lab)
 
 <details>
-<summary><strong>English — About Hacker Directory</strong></summary>
+<summary><strong>Türkçe</strong></summary>
 
-Hacker Directory is an independent security learning project focused on mechanisms, boundaries, and evidence. We explore Active Directory and Web Application foundations through three perspectives: **Core**, **Red**, and **Blue**.
+### Hakkında
 
-Our manual labs follow a simple cycle: **predict → observe → explain**. They use small local applications and native APIs so learners can inspect actual behavior and record their own evidence.
+Hacker Directory, bağımsız bir security öğrenme/başvuru projesidir. İçerikler English ve Türkçe olarak sunulur.
 
-This account is the home for standalone lab packages and their workbooks. Links will appear here as the first lab repositories are published.
+### Mevcut eğitim serileri
+
+- **Active Directory**
+- **Web Application**
+
+Bu seriler Core, Red ve Blue perspektiflerini, konuya özgü artifact'leri ve pratik çalışmaları birleştirir.
+
+| Perspektif | Odak |
+| :--- | :--- |
+| **Core** | Protokoller ve mimari |
+| **Red** | İstismar mekaniği |
+| **Blue** | Savunma ve tespit |
+
+### Manual lablar
+
+Bu hesapta bağımsız yerel lablar ve workbook'leri paylaşılıyor. Mevcut paketler:
+
+- **Request, session ve resource policy** — HTTP request/response, cookie, session state ve authorization kararları. İki workbook aynı yerel uygulamada çalışır.
+- **URL Boundary Lab** — native API'lerle URL bileşenleri, relative resolution, encoding ve origin/site karşılaştırmaları.
+- **Browser Observation Lab** — browser'da Document, DOM/CSS ve event loop davranışlarının gözlemlenmesi.
+
+- [web-request-session-lab](https://github.com/hackerdirectory/web-request-session-lab)
+- [web-url-boundary-lab](https://github.com/hackerdirectory/web-url-boundary-lab)
+- [web-browser-observation-lab](https://github.com/hackerdirectory/web-browser-observation-lab)
 
 </details>
 
 ---
 
-<p align="center"><strong>Understand what you hack.</strong><br /><sub>Hacker Directory · Independent security learning</sub></p>
+<p align="center"><strong>Understand what you hack.</strong></p>
